@@ -48,14 +48,4 @@ startSort.addEventListener('click', ()=>{
 	if(sortingTechnique === 'selection-sort'){
 		selectionSort(speed);
 	}
-	if(sortingTechnique === 'insertion-sort'){
-		insertionSort(speed);
-	}
-	if(sortingTechnique === 'merge-sort'){
-		mergeSort(speed);
-	}
-	if(sortingTechnique === 'quick-sort'){
-		quickSort(arr, 0, arr.length-1, speed);
-		console.log(arr);
-	}
 });
