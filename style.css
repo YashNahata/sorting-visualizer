@@ -1,136 +1,136 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-	font-family: 'Antonio', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Antonio", sans-serif;
 }
-body{
-	background-color: #1a1919;
+body {
+  background-color: #1a1919;
 }
-.header{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	color: white;
-	font-size: 25px;
-	margin: 5px;
-	padding: 10px;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px;
 }
-.buttons{
-	margin-top: 15px;
-	padding: 10px;
-	width: 75vw;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.buttons {
+  margin-top: 15px;
+  padding: 10px;
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.buttons button{
-	border: none;
-	background-color: #1a1919;
-	color: white;
-	width: 90px;
-	height: 35px;
-	font-size: 17px;
+.buttons button {
+  border: none;
+  background-color: #1a1919;
+  color: white;
+  width: 90px;
+  height: 35px;
+  font-size: 17px;
 }
-.buttons button:hover{
-	cursor: pointer;
-	background-color: white;
-	color: #1a1919;
-	border-radius: 10px;
+.buttons button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #1a1919;
+  border-radius: 10px;
 }
-.select-sort{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.select-sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#sorting-technique{
-	outline: none;
-	height: 25px;
-	border: none;
-	border-radius: 12px;
+#sorting-technique {
+  outline: none;
+  height: 25px;
+  border: none;
+  border-radius: 12px;
 }
-label{
-	font-size: 18px;
-	padding: 15px;
+label {
+  font-size: 18px;
+  padding: 15px;
 }
-#sorting{
-	/*width: 1280px;*/
-	height: 70vh;
-	display: flex;
-	justify-content: center;
+#sorting {
+  /*width: 1280px;*/
+  height: 70vh;
+  display: flex;
+  justify-content: center;
 }
-.bar{
-	width: 12.8px;
-	background-color: white;
+.bar {
+  width: 12.8px;
+  background-color: white;
 }
-.speed-box{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.speed-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#speed{
-	-webkit-appearance: none;
-	width: 55%;
+#speed {
+  -webkit-appearance: none;
+  width: 55%;
 }
-#speed::-webkit-slider-runnable-track{
-	height: .35em;
-	background: white;
-	border: none;
-	border-radius: 3px;
+#speed::-webkit-slider-runnable-track {
+  height: 0.35em;
+  background: white;
+  border: none;
+  border-radius: 3px;
 }
-#speed::-webkit-slider-thumb{
-	-webkit-appearance: none;
-	border: none;
-	height: 1.1em;
-	width: 1.1em;
-	border-radius: 50%;
-	background: white;
-	margin-top: -5px;
+#speed::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 1.1em;
+  width: 1.1em;
+  border-radius: 50%;
+  background: white;
+  margin-top: -5px;
 }
-#speed:focus{
-	outline: none;
-	cursor: pointer;
+#speed:focus {
+  outline: none;
+  cursor: pointer;
 }
-.current-bar{
-	background-color: #ff3333;
+.current-bar {
+  background-color: #ff3333;
 }
-.sorted-bar{
-	background-color: #00e600;
+.sorted-bar {
+  background-color: #00e600;
 }
-.pivot-bar{
-	background-color: #ffff80;
+.pivot-bar {
+  background-color: #ffff80;
 }
-@media screen and (max-width: 768px){
-	.header{
-		justify-content: space-around;
-		align-items: center;
-		font-size: 20px;
-		margin: 2px;
-		padding: 5px;
-	}
-	.buttons{
-		margin-top: 7px;
-		padding: 20px;
-		width: 100vw;
-	}
-	.buttons button{
-		width: 75px;
-		height: 25px;
-		font-size: 16px;
-	}
-	.select-sort{
-		flex-direction: column;
-		text-align: center;
-	}
-	label{
-		font-size: 14px;
-		padding: 3px;
-	}
-	#speed{
-		width: 45%;
-	}
-	.buttons button:hover{
-		height: 45px;
-	}
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin: 2px;
+    padding: 5px;
+  }
+  .buttons {
+    margin-top: 7px;
+    padding: 20px;
+    width: 100vw;
+  }
+  .buttons button {
+    width: 75px;
+    height: 25px;
+    font-size: 16px;
+  }
+  .select-sort {
+    flex-direction: column;
+    text-align: center;
+  }
+  label {
+    font-size: 14px;
+    padding: 3px;
+  }
+  #speed {
+    width: 45%;
+  }
+  .buttons button:hover {
+    height: 45px;
+  }
 }

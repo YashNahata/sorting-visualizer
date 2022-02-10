@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Sorting Visualizer</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
-	<header class="header">
-		<div>
-			<h1>Sorting Visualiser</h1>
-		</div>
-		<div class="buttons">
-			<button id="new-array">New Array</button>
-			<div class="select-sort">
-				<label name="sorting-technique">Sorting Technique</label>
-				<select id="sorting-technique" name="sorting-technique">
-					<option id="bubble-sort" value="bubble-sort">Bubble Sort</option>
-					<option id="selection-sort" value="selection-sort">Selection Sort</option>
-				</select>
-			</div>
-			<div class="speed-box">
-				<label name="speed">Speed</label>
-				<input type="range" name="speed" id="speed" min="10" max="340">
-			</div>
-			<button id="start-sort">Sort</button>
-		</div>
-	</header>
-	<div id="sorting"></div>
-	<script type="text/javascript" src="./sort/sort.js"></script>
-	<script type="text/javascript" src="./sort/bubbleSort.js"></script>
-	<script type="text/javascript" src="./sort/selectionSort.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1>Sorting Visualiser</h1>
+      </div>
+      <div class="buttons">
+        <button id="new-array">New Array</button>
+        <div class="select-sort">
+          <label name="sorting-technique">Sorting Technique</label>
+          <select id="sorting-technique" name="sorting-technique">
+            <option id="bubble-sort" value="bubble-sort">Bubble Sort</option>
+            <option id="selection-sort" value="selection-sort">
+              Selection Sort
+            </option>
+          </select>
+        </div>
+        <div class="speed-box">
+          <label name="speed">Speed</label>
+          <input type="range" name="speed" id="speed" min="10" max="340" />
+        </div>
+        <button id="start-sort">Sort</button>
+      </div>
+    </header>
+    <div id="sorting"></div>
+    <script type="text/javascript" src="./sort/sort.js"></script>
+    <script type="text/javascript" src="./sort/bubbleSort.js"></script>
+    <script type="text/javascript" src="./sort/selectionSort.js"></script>
+  </body>
 </html>
